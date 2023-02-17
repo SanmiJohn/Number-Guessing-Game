@@ -1,0 +1,58 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+main {
+    height: 22rem;
+    width: 38rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+input {
+    height: 4rem;
+    width: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: purple;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    height: 2.5rem;
+    width: 8rem;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+#firstdiv {
+    text-align: center;
+}
+
+#seconddiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+#thirddiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
